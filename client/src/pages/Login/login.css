@@ -1,0 +1,67 @@
+
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(C:\Users\hp\Documents\Reactjs\BlogWeb\website\client\src\images\comp2.jpg);
+    background-size: cover;
+
+}
+.loginTitle{
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: whitesmoke;
+}
+input{
+    border-radius: 5px;
+}
+
+.loginForm>label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+
+}

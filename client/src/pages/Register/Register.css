@@ -1,0 +1,84 @@
+
+.Register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(C:\Users\hp\Documents\Reactjs\BlogWeb\website\client\src\images\system.jpg);
+    background-size: cover;
+
+}
+.RegisterTitle{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.box{
+    width: 300px;
+    height: 310px;
+    background-color: white;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.RegisterForm{
+    margin-top: 50px;
+    display: flex;
+    margin: auto;
+    margin-left: 62px;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+}
+
+label{
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+  
+}
+input{
+    border-radius: 5px;
+}
+
+.RegisterForm>label{
+    margin: 10px 0;
+}
+
+.RegisterInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.RegisterInput:focus{
+    outline: none;
+}
+
+.RegisterButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.RegisterLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+
+}
